@@ -1,0 +1,93 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    /* background-color: #0b132b; */
+    /* position: relative; */
+  }
+  
+  .login-card {
+    background-color: #1c2541;
+    border-radius: 16px;
+    padding: 40px 30px;
+    width: 350px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .login-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+    color: #6fffe9;
+  }
+  
+  .login-label {
+    font-size: 14px;
+    margin-bottom: 4px;
+    color: #6fffe9;
+  }
+  
+  .login-input {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: #3a506b;
+    color: white;
+  }
+  
+  .login-input::placeholder {
+    color: #c0e0e8;
+  }
+  
+  .login-button {
+    margin-top: 10px;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #5bc0be;
+    color: #0b132b;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #6fffe9;
+  }
+  
+  .social-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    gap: 12px;
+  }
+  
+  .social-button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3a506b;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-button.google:hover {
+    background-color: #db4437;
+  }
+  
+  .social-button.facebook:hover {
+    background-color: #3b5998;
+  }
+  

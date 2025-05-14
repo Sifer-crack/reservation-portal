@@ -1,0 +1,56 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #dbeafe, #e9d5ff); /* light blue to light purple */
+  }
+  
+  .home-island {
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+  }
+  
+  .home-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937; /* dark gray */
+    margin-bottom: 30px;
+  }
+  
+  .home-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .home-button {
+    padding: 10px 24px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button {
+    background-color: #2563eb; /* blue-600 */
+  }
+  
+  .login-button:hover {
+    background-color: #1d4ed8; /* darker blue */
+  }
+  
+  .register-button {
+    background-color: #16a34a; /* green-600 */
+  }
+  
+  .register-button:hover {
+    background-color: #15803d; /* darker green */
+  }
+  
